@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles2.css">
+        <title>Form practice</title>
+    </head>
+    <body>
+        <section class="employee">
+        <h1>GZI Employee</h1>
+        <form action="./section.html" method="post">
+            <fieldset>
+                <legend>Employee details</legend>
+                <label for="name">Employee Firstname:</label>
+                <input id="name" type="text" name="name" placeholder="Firstname" required><br><br>
+
+                <label for="name2">Employee Middlename:</label>
+                <input id="name2" type="text" name="name2" placeholder="Middlename" required><br><br>
+
+                
+                <label for="name3">Employee Lastname:</label>
+                <input id="name3" type="text" name="name3" placeholder="Lastname" required><br><br>
+                
+                <label for="num">Employee Phonenumber:</label>
+                <input id="num" name="num" placeholder="Phonenumber" type="text" min="11" max="11" pattern="[0-9]+" required><br><br>
+
+                <p>Employee Gender</p>
+                <input type="radio" name="gender" value="male" id="gender">
+                <label for="gender">Male</label>
+
+                <input type="radio" name="gender" value="female" id="gender">
+                <label for="gender">Female</label><br><br>
+
+                <label for="id">Employee Id:</label>
+                <input type="text" id="id" placeholder="Id" name="id"><br><br>
+
+                
+                <label for="design">Designation:</label>
+                <input type="text" id="design" placeholder="Designations" name="design"><br><br>
+
+                
+                <label for="Position">Position:</label>
+                <input type="text" id="Position" placeholder="Position" name="Position"><br><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        </section>
+    </body>
+</html> 

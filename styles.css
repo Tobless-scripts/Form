@@ -1,0 +1,39 @@
+/* General styling for both pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background color for calm appearance */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Clean white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.message {
+    font-size: 1.2em;
+    color: #4a6fa5; /* Cool blue color for the message */
+    margin-bottom: 20px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4a6fa5; /* Matching blue color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #3d5a80; /* Slightly darker blue on hover */
+}
